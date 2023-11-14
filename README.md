@@ -1,4 +1,4 @@
-This is the repository for the MATLAB and Python codes for generating the results in the manuscript: Exploring the rules of chimeric antigen receptor phenotypic output using combinatorial signaling motif libraries and machine learning, K.G. Daniels, S. Wang, M.S. Simic, H.K. Bhargava, S. Capponi, Y. Tonai, W. Yu, S. Bianco, W.A. Lim, doi: https://doi.org/10.1101/2022.01.04.474985.
+This is the repository for the MATLAB and Python codes for generating the results in the manuscript: Exploring the rules of chimeric antigen receptor phenotypic output using combinatorial signaling motif libraries and machine learning, K.G. Daniels, S. Wang, M.S. Simic, H.K. Bhargava, S. Capponi, Y. Tonai, W. Yu, S. Bianco, W.A. Lim. https://www.science.org/doi/10.1126/science.abq0225
 
 1. **Data Preparation**
 
@@ -24,15 +24,9 @@ This is the repository for the MATLAB and Python codes for generating the result
 - Due to the stochastic nature of network initialization and dropout, as well as the availability of a limited training set, every neural network is unique in terms of the parameterization of the network connections. 
 - To mitigate the potential impact of this issue, we implemented an ensemble decision method to obtain consensus prediction from ten identical neural networks.
 
-
+5. **Acknowledgments**
+This work is funded by the National Science Foundation (NSF) grant No. DBI-1548297, Center for Cellular Construction. Disclaimer: Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
 
 If you find this code useful in your research, please consider citing.
+https://www.science.org/doi/10.1126/science.abq0225
 
-BibTeX:
-@article{daniels2022exploring,
-  title={Exploring the rules of chimeric antigen receptor phenotypic output using combinatorial signaling motif libraries and machine learning},
-  author={Daniels, Kyle G and Wang, Shangying and Simic, Milos S and Bhargava, Hersh K and Capponi, Sara and Tonai, Yurie and Yu, Wei and Bianco, Simone and Lim, Wendell A},
-  journal={bioRxiv},
-  year={2022},
-  publisher={Cold Spring Harbor Laboratory}
-}
